@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '../ui/Card'; 
 import { FootprintsIcon } from 'lucide-react';
 

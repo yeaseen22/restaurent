@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import  { useState, useEffect, useRef } from 'react';
 import { ScrollArea } from '../ui/Alert';
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '../ui/Button';

@@ -1,8 +1,7 @@
-import React from 'react';
-import { Search, Globe, ShoppingCart } from 'lucide-react';
-import { Button } from '../ui/Button'; // Adjust the import path
-import { Input } from '../ui/Input'; // Adjust the import path
-import { Link } from 'react-router-dom'; // Use React Router for navigation
+import { Search, Globe } from 'lucide-react';
+import { Button } from '../ui/Button'; 
+import { Input } from '../ui/Input'; 
+import { Link } from 'react-router-dom'; 
 
 export function Navbar() {
   return (
