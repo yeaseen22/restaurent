@@ -8,7 +8,7 @@ interface ProductCardProps {
   image: string;
 }
 
-export function ProductCard({ title, price, image }: ProductCardProps) {
+export function ProductCard({ title, price }: ProductCardProps) {
   return (
     <Card className="overflow-hidden bg-white rounded-2xl border-0 shadow-sm hover:shadow-md transition-shadow">
       <div className="relative aspect-square">

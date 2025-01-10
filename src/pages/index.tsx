@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import  { useState } from "react";
 import { Navbar } from "../components/Navbar";
 import { RestaurantHeader } from "../components/RestaurantHeader";
 import { DeliveryAlerts } from "../components/DeliveryAlerts";
