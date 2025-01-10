@@ -2,7 +2,7 @@
   "name": "restaurent",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://yeaseen22/github.io/restaurent",
+  "homepage": "https://yeaseen22.github.io/restaurent",
   "type": "module",
   "scripts": {
     "dev": "vite",
