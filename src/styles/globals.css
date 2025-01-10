@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    /* Product card transitions */
+    .product-card {
+      @apply transition-all duration-200;
+    }
+    
+    .product-card:hover {
+      @apply shadow-md;
+    }
+    
+    /* Menu item styles */
+    .menu-item {
+      @apply py-2 px-4 text-gray-600 hover:text-gray-900 transition-colors rounded-lg;
+    }
+    
+    .menu-item-active {
+      @apply bg-gray-100 text-gray-900 font-medium;
+    }
+  }
+  
+  /* Custom scrollbar */
+  .scroll-area {
+    scrollbar-width: thin;
+    scrollbar-color: #E5E7EB transparent;
+  }
+  
+  .scroll-area::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scroll-area::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scroll-area::-webkit-scrollbar-thumb {
+    background-color: #E5E7EB;
+    border-radius: 3px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  /* Ensure full-height layout on mobile */
+  @media (max-width: 768px) {
+    body, #__next {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .container {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+    
+    main {
+      padding: 0.75rem;
+    }
+  }
+  
+  /* Smooth transitions */
+  * {
+    @apply transition-colors duration-200;
+  }
+  
+  
